@@ -1,0 +1,116 @@
+.checkout-container{
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 850px;
+    background-color: rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.checkout-bill{
+    margin: 2rem auto 0;
+    padding: 1.5rem 1rem;
+    width: 400px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+.bill-title{
+    text-align: center;
+    font-size: 1rem;
+}
+.billno-date{
+    margin: 1.5rem 0 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.bill-items{
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    border-bottom: 2px solid #797979;
+}
+.ind-bill-item{
+    margin: .5rem 0;
+}
+.ind-bill-item, .total{
+    display: flex;
+    justify-content: space-between;
+}
+.unit-price{
+    display: flex;
+    gap: 75px;
+}
+.total{
+    font-weight: bold;
+}
+.download{
+    margin: 2rem 0 0;
+    width: 100%;
+    font-size: 1.1rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: end;
+    outline: none;
+    border: none;
+}
+.checkout-inps{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inp-group{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    padding: 0 .5rem;
+    width: 300px;
+    height: 33px;
+    border: 1px solid #dcdcdc;
+}
+.payment-method{
+    display: flex;
+    gap: 10px;
+}
+.payment-method>div{
+    width: 125px;
+    height: 75px;
+    text-align: center;
+    border: 1px solid #797979;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choosen-payment{
+    border: 2px solid var(--blue) !important;
+}
+.cod{
+    background-color: #fff;
+}
+.esewa img{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    object-fit: contain;
+}
+.checkout-btn{
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color: var(--blue);
+    border: 1px solid #005091;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
